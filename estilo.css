@@ -1,0 +1,51 @@
+body{
+    background: radial-gradient(rgb(127, 255, 212), rgb(255, 255, 255));
+    display: flex;
+}
+
+#Todas{
+    padding-left: 10px;
+    width: 315px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border: 3px solid;
+    height: 950px;
+    overflow: auto;
+    width: 330px;
+}
+
+#Resultado{
+    opacity: 1;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    border: 3px solid;
+
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#Resultado{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 400px;
+    border: 3px solid;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
